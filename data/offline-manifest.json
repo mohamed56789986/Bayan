@@ -1,0 +1,1597 @@
+{
+  "schema": "bayan-offline-manifest/1",
+  "scope": "/",
+  "entry": "/index.html",
+  "build": {
+    "buildId": "2ef972a9e2c24061",
+    "generator": "tools/build-offline-manifest.mjs"
+  },
+  "pages": [
+    {
+      "url": "/404.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/index.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/assets/images/moadh.webp",
+        "/assets/images/momen.webp",
+        "/css/style.css",
+        "/data/daily-reflections.js",
+        "/data/duas.js",
+        "/js/home-enhancements.js",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/about.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/assets/images/moadh.webp",
+        "/assets/images/momen.webp",
+        "/css/style.css",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/azkar.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/azkar-routes.js",
+        "/js/azkar-routes.js",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/duas.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/duas.js",
+        "/js/duas.js",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/evening.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/evening-adhkar.js",
+        "/js/dhikr-session.js",
+        "/js/evening.js",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/morning.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/morning-adhkar.js",
+        "/js/dhikr-session.js",
+        "/js/main.js",
+        "/js/morning.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/names.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/names.js",
+        "/js/main.js",
+        "/js/names.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/nawawi.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/nawawi.js",
+        "/js/main.js",
+        "/js/nawawi.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/prayer-adhkar.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/prayer-adhkar.js",
+        "/js/main.js",
+        "/js/prayer-adhkar.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/prayer.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/prayer-cities.js",
+        "/data/prayer-regions.js",
+        "/js/main.js",
+        "/js/prayer-calc.js",
+        "/js/prayer-times.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/quran.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/quran-metadata.xml",
+        "/data/quran-uthmani.txt",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/quran.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/references.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/router.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/router.js",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/router.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/short-adhkar.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/short-adhkar.js",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/short-adhkar.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/sleep.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/sleep-adhkar.js",
+        "/js/dhikr-session.js",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/sleep.js",
+        "/js/storage.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    },
+    {
+      "url": "/pages/sunnah.html",
+      "required": true,
+      "dependsOn": [
+        "/assets/fonts/amiri-arabic-400-italic.woff2",
+        "/assets/fonts/amiri-arabic-400-normal.woff2",
+        "/assets/fonts/amiri-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-400-normal.woff2",
+        "/assets/fonts/cairo-arabic-500-normal.woff2",
+        "/assets/fonts/cairo-arabic-600-normal.woff2",
+        "/assets/fonts/cairo-arabic-700-normal.woff2",
+        "/assets/fonts/cairo-arabic-800-normal.woff2",
+        "/assets/icons/header-logo.webp",
+        "/assets/icons/icon-192-v2.png",
+        "/assets/icons/icon-512-v2.png",
+        "/assets/icons/icon-maskable-512-v2.png",
+        "/css/style.css",
+        "/data/sunnah.js",
+        "/js/main.js",
+        "/js/pwa-install.js",
+        "/js/storage.js",
+        "/js/sunnah.js",
+        "/js/theme-init.js",
+        "/manifest.webmanifest"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "url": "/404.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "29273f5f0dc57c2fad2a31768c6372b7a497afe7b667757fd0f28b185f9d32fd",
+      "bytes": 12333,
+      "pages": [
+        "404.html"
+      ]
+    },
+    {
+      "url": "/assets/fonts/amiri-arabic-400-italic.woff2",
+      "type": "font",
+      "tier": "optional",
+      "required": false,
+      "role": "font",
+      "sha256": "fa136cff7ec9ae56373abd2780a4fe24d96b958bd737e15898ee26b3cb1e7042",
+      "bytes": 111720,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/fonts/amiri-arabic-400-normal.woff2",
+      "type": "font",
+      "tier": "optional",
+      "required": false,
+      "role": "font",
+      "sha256": "9abf8a10b4a2f27b698740522c9beec9ded7728aeef0738ac0d6e175bf6249d7",
+      "bytes": 108560,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/fonts/amiri-arabic-700-normal.woff2",
+      "type": "font",
+      "tier": "optional",
+      "required": false,
+      "role": "font",
+      "sha256": "c775d9f8c3a7cf0d0c2bb5246dd699e8c09bf6f8758e1be0b98939331b18bcce",
+      "bytes": 99968,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/fonts/cairo-arabic-400-normal.woff2",
+      "type": "font",
+      "tier": "optional",
+      "required": false,
+      "role": "font",
+      "sha256": "1b36945f5f6a3d1fed3783999b887d0c56cfd66a41a04212a28aa79abbdff0e1",
+      "bytes": 13292,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/fonts/cairo-arabic-500-normal.woff2",
+      "type": "font",
+      "tier": "optional",
+      "required": false,
+      "role": "font",
+      "sha256": "8bd9b6b3bdb2207f92921690f7c9edf7354e8fd69242cbd38be4ae9ebae25021",
+      "bytes": 13892,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/fonts/cairo-arabic-600-normal.woff2",
+      "type": "font",
+      "tier": "optional",
+      "required": false,
+      "role": "font",
+      "sha256": "621909d2e4c8720d3af3a74028556956d343baaa5be48c47a0ad406607fc6515",
+      "bytes": 13896,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/fonts/cairo-arabic-700-normal.woff2",
+      "type": "font",
+      "tier": "optional",
+      "required": false,
+      "role": "font",
+      "sha256": "673212b4908a9a6366ad6beb8a8a58c91bc3cb7e6cc4802b315a240c2dd80eb9",
+      "bytes": 13952,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/fonts/cairo-arabic-800-normal.woff2",
+      "type": "font",
+      "tier": "optional",
+      "required": false,
+      "role": "font",
+      "sha256": "ba5febcd1f64ca49060a110276ea847e43a1d1e9c1ef554edaf65b2c0429194a",
+      "bytes": 13888,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/icons/header-logo.webp",
+      "type": "image",
+      "tier": "core",
+      "required": true,
+      "role": "shared-logo",
+      "sha256": "2df6f7c73f41306eee86c700b371a99cfe64a244309e04df01652ada6811dd0b",
+      "bytes": 2600,
+      "pages": [
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/icons/icon-192-v2.png",
+      "type": "image",
+      "tier": "optional",
+      "required": false,
+      "role": "icon",
+      "sha256": "a7e1ae1c455fc0086fbc19b7d61193ecf9692977e295ad5ca1cf2db8153c3fe6",
+      "bytes": 47233,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/icons/icon-512-v2.png",
+      "type": "image",
+      "tier": "optional",
+      "required": false,
+      "role": "icon",
+      "sha256": "447fe39f6f89023390864f76cb1c6a8d5599d7084b82cfb3bcde2b5153853c72",
+      "bytes": 51362,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/icons/icon-maskable-512-v2.png",
+      "type": "image",
+      "tier": "optional",
+      "required": false,
+      "role": "icon",
+      "sha256": "e33939c917591fa3be9bf1d00dca8f5088134a0f6bb66593f06aa00fe225e71e",
+      "bytes": 54061,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/assets/images/moadh.webp",
+      "type": "image",
+      "tier": "optional",
+      "required": false,
+      "role": "image",
+      "sha256": "0d17a8d6b2959b0ba98cd336bc9279476c5326822cf07d379f858a5b5733fe5e",
+      "bytes": 83568,
+      "pages": [
+        "index.html",
+        "pages/about.html"
+      ]
+    },
+    {
+      "url": "/assets/images/momen.webp",
+      "type": "image",
+      "tier": "optional",
+      "required": false,
+      "role": "image",
+      "sha256": "5093986b5233225320abe925fdc8f6cbe59e41bad3fe548f9f34ffa78e4ad969",
+      "bytes": 164710,
+      "pages": [
+        "index.html",
+        "pages/about.html"
+      ]
+    },
+    {
+      "url": "/css/style.css",
+      "type": "stylesheet",
+      "tier": "core",
+      "required": true,
+      "role": "shared-style",
+      "sha256": "3f4777d16730fefdf927f5b9bad5e107e57b431c967722047100c9a4473e3a53",
+      "bytes": 79671,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/data/azkar-routes.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "dc30564bce3369a8d6890a7ffc3d74d6d49d29d622b621217ab993f36d3dce6e",
+      "bytes": 2111,
+      "pages": [
+        "pages/azkar.html"
+      ]
+    },
+    {
+      "url": "/data/daily-reflections.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "af4b6337f7123fedc97baea8956053fe71aad560a497a6b9c1ee4279a07fee59",
+      "bytes": 1559,
+      "pages": [
+        "index.html"
+      ]
+    },
+    {
+      "url": "/data/duas.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "802d5c01b33dd08d0b23b1e359d04524f1135b69fb0d62e27f2f5304c3694ec7",
+      "bytes": 17670,
+      "pages": [
+        "index.html",
+        "pages/duas.html"
+      ]
+    },
+    {
+      "url": "/data/evening-adhkar.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "8a82dbb004384af3b12633799acf0f266af2427a08a0c6a58b26c1668af96d3a",
+      "bytes": 11408,
+      "pages": [
+        "pages/evening.html"
+      ]
+    },
+    {
+      "url": "/data/morning-adhkar.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "b7f4b5dd8f654fcd268a298ea2fc01c5792e8592dd804099ec7209ebb054d235",
+      "bytes": 11613,
+      "pages": [
+        "pages/morning.html"
+      ]
+    },
+    {
+      "url": "/data/names.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "3273a2b18840d997e24e9a5a2463d60f1ed7dfce860365de2622928777e0fe51",
+      "bytes": 13690,
+      "pages": [
+        "pages/names.html"
+      ]
+    },
+    {
+      "url": "/data/nawawi.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "7a4621ad9198cf11120a8e264ee3deeaf3154079b9d4f57215f6b3aff6725563",
+      "bytes": 76220,
+      "pages": [
+        "pages/nawawi.html"
+      ]
+    },
+    {
+      "url": "/data/prayer-adhkar.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "13f05e046cf8d054c982b98e93ef0a7518d6b1b58b4ba71c28232a76c2c9af2a",
+      "bytes": 4576,
+      "pages": [
+        "pages/prayer-adhkar.html"
+      ]
+    },
+    {
+      "url": "/data/prayer-cities.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "600ae57034ee6a75a86267399c58ab94fc25894571536ecb416d80668717c265",
+      "bytes": 22401,
+      "pages": [
+        "pages/prayer.html"
+      ]
+    },
+    {
+      "url": "/data/prayer-regions.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "2655493ff82301b1528c77aca1eab8123eb5af387afc474afa48f359883e911d",
+      "bytes": 18553,
+      "pages": [
+        "pages/prayer.html"
+      ]
+    },
+    {
+      "url": "/data/quran-metadata.xml",
+      "type": "data",
+      "tier": "core",
+      "required": true,
+      "role": "quran-metadata",
+      "sha256": "423afa57b81ccee79a4f15a2df1b8aa6a6c06498cfe8ce12e627adc41512c4a9",
+      "bytes": 77211,
+      "pages": [
+        "pages/quran.html"
+      ]
+    },
+    {
+      "url": "/data/quran-uthmani.sha256",
+      "type": "integrity",
+      "tier": "core",
+      "required": true,
+      "role": "quran-integrity",
+      "sha256": "5861c8bd248cccfe3cc4642682160b8b84b67f59c00d1d8172a94f3f8087ee47",
+      "bytes": 89,
+      "pages": [
+        "pages/quran.html"
+      ]
+    },
+    {
+      "url": "/data/quran-uthmani.txt",
+      "type": "dataset",
+      "tier": "content",
+      "required": true,
+      "role": "quran-dataset",
+      "sha256": "6933e133dd56db778c801bf738848454e43648105a151e8d84d86a7cae39ec5f",
+      "bytes": 1396087,
+      "pages": [
+        "pages/quran.html"
+      ]
+    },
+    {
+      "url": "/data/router.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "e0c2f017437a91895aa2fafede82665f1342889180ccfee856ea71ab0dd4a7c4",
+      "bytes": 2712,
+      "pages": [
+        "pages/router.html"
+      ]
+    },
+    {
+      "url": "/data/short-adhkar.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "4a8912e9981532bff2a1caddc3e159ed8688c05bfd4e698610e94d854b60e514",
+      "bytes": 2701,
+      "pages": [
+        "pages/short-adhkar.html"
+      ]
+    },
+    {
+      "url": "/data/sleep-adhkar.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "97dd0227498f699eb4c4bb696351a9ba5dac268460b19d9a0cc72bad3be2eea7",
+      "bytes": 4508,
+      "pages": [
+        "pages/sleep.html"
+      ]
+    },
+    {
+      "url": "/data/sunnah.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "b0ee02925c1abe18b3864302d84973df8b84ec4ee19b3d09fe7c5647b1767a16",
+      "bytes": 19007,
+      "pages": [
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/index.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "a9fbd2905ec2aa2aa3f0b6aa5e519c50079cdac4b2a0fb20fd1045bac9dc0165",
+      "bytes": 29224,
+      "pages": [
+        "index.html"
+      ]
+    },
+    {
+      "url": "/js/azkar-routes.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "a819858bb5a352d9599537cfce6e0c29d06d27e7ed2568f2f2fc45fe80023642",
+      "bytes": 2494,
+      "pages": [
+        "pages/azkar.html"
+      ]
+    },
+    {
+      "url": "/js/dhikr-session.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "f0e419e65020a979b9c6d5538d868f85b0df25d90ef3d8ad273a3d9b0b0e3e4d",
+      "bytes": 12359,
+      "pages": [
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/sleep.html"
+      ]
+    },
+    {
+      "url": "/js/duas.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "0575c1c92c68d4151588866a0af9bc66ec6aa3e4c7b0db3323df68e9b720ed2e",
+      "bytes": 6078,
+      "pages": [
+        "pages/duas.html"
+      ]
+    },
+    {
+      "url": "/js/evening.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "aa2d2ba2c1094d91a23334cd0c461bd04138517966d68a69db6081d43b02d4e9",
+      "bytes": 469,
+      "pages": [
+        "pages/evening.html"
+      ]
+    },
+    {
+      "url": "/js/home-enhancements.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "8da44911b0db1544e54730e7c47c98bebaab25cdcfb3087f043565a53a4d1cf4",
+      "bytes": 2666,
+      "pages": [
+        "index.html"
+      ]
+    },
+    {
+      "url": "/js/main.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "7de0ba2095896979cd84c481254536bf9f13524d8e6b2af6a530e8e25a0dce4e",
+      "bytes": 18309,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/js/morning.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "9a2f9509b3697922ffb7afafb97375af0cb10aef37ff0649be01b9b461a84007",
+      "bytes": 469,
+      "pages": [
+        "pages/morning.html"
+      ]
+    },
+    {
+      "url": "/js/names.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "e4b89fbd6bea78335868248c977717b3fdfc3e3390dbc64b0e9c407fccd63743",
+      "bytes": 5866,
+      "pages": [
+        "pages/names.html"
+      ]
+    },
+    {
+      "url": "/js/nawawi.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "fc15b58d31ec80976ca91d3a5b07c0fa30447110e9cb3c216bacf39922c8f431",
+      "bytes": 5902,
+      "pages": [
+        "pages/nawawi.html"
+      ]
+    },
+    {
+      "url": "/js/prayer-adhkar.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "109b29b4ee976e5651756b491af7e4228a60d51b4d68a505d328f0bd59e4f515",
+      "bytes": 3811,
+      "pages": [
+        "pages/prayer-adhkar.html"
+      ]
+    },
+    {
+      "url": "/js/prayer-calc.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "e59e91002b50a3fef117868055243ba3cc463abe9ef16a152a957d0edebcf24b",
+      "bytes": 28877,
+      "pages": [
+        "pages/prayer.html"
+      ]
+    },
+    {
+      "url": "/js/prayer-times.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "6cd8c9fe49b474bf634ef614c49ca508f622cae752b51611538b4f9a604213cf",
+      "bytes": 53877,
+      "pages": [
+        "pages/prayer.html"
+      ]
+    },
+    {
+      "url": "/js/pwa-install.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "16161ef70e7d55c682fabd2f26b4094c4a03e24f878b7e106d78672fc8cc9d18",
+      "bytes": 4170,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/js/quran.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "f018a5dd2d471e90e3bfdf6c544baca2a7669597bd42024e8988373e67b9cdfd",
+      "bytes": 27598,
+      "pages": [
+        "pages/quran.html"
+      ]
+    },
+    {
+      "url": "/js/router.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "be3bfc9bb46168fb010edcb11616fdb1d4543cf31b5920f0b00160b4f483ad5a",
+      "bytes": 2502,
+      "pages": [
+        "pages/router.html"
+      ]
+    },
+    {
+      "url": "/js/short-adhkar.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "b6bd714ec5fccd7bfcef5130b1908eb076e9c8e6b2fe2b4f4d416cb14ef5d5be",
+      "bytes": 3934,
+      "pages": [
+        "pages/short-adhkar.html"
+      ]
+    },
+    {
+      "url": "/js/sleep.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "a175f08c9910916e306129b2b511a70a712c01e8e38432999a85e2ddaf5ef94a",
+      "bytes": 441,
+      "pages": [
+        "pages/sleep.html"
+      ]
+    },
+    {
+      "url": "/js/storage.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "b11dcd7a63bf546212b6d0018510829bcfb6373f3f16c3d600759a2c026cbb5e",
+      "bytes": 12405,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/js/sunnah.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "ed21340d0e4a0173b003bfd9b806002f737c9b37023d4461eb762ae44c629c11",
+      "bytes": 3827,
+      "pages": [
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/js/theme-init.js",
+      "type": "script",
+      "tier": "core",
+      "required": true,
+      "role": "script",
+      "sha256": "02c37cd252e7875b52da92439793582ee94d610adcb23b5a55618c7a499ba41d",
+      "bytes": 1175,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/manifest.webmanifest",
+      "type": "manifest",
+      "tier": "core",
+      "required": true,
+      "role": "pwa-manifest",
+      "sha256": "38ef8dd9f3258f8b30bcaafa6b91e7a8be3584c2b2c198c525905091b3e7efa8",
+      "bytes": 959,
+      "pages": [
+        "404.html",
+        "index.html",
+        "pages/about.html",
+        "pages/azkar.html",
+        "pages/duas.html",
+        "pages/evening.html",
+        "pages/morning.html",
+        "pages/names.html",
+        "pages/nawawi.html",
+        "pages/prayer-adhkar.html",
+        "pages/prayer.html",
+        "pages/quran.html",
+        "pages/references.html",
+        "pages/router.html",
+        "pages/short-adhkar.html",
+        "pages/sleep.html",
+        "pages/sunnah.html"
+      ]
+    },
+    {
+      "url": "/pages/about.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "61f0d9eefe4557d45a9eb87ec961103e163510757f1ad7cd76d74faa7e79abc0",
+      "bytes": 16185,
+      "pages": [
+        "pages/about.html"
+      ]
+    },
+    {
+      "url": "/pages/azkar.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "40d346b64d42902655100224d78239a299e41608ffb846193bd8d39b130624ca",
+      "bytes": 11497,
+      "pages": [
+        "pages/azkar.html"
+      ]
+    },
+    {
+      "url": "/pages/duas.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "4e52790b06e240a6fb55298445e6fffbe81409131e8924b56760814b7d027285",
+      "bytes": 13083,
+      "pages": [
+        "pages/duas.html"
+      ]
+    },
+    {
+      "url": "/pages/evening.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "599652d1345e70633554ee1a2b099fbae1fb28eb9cebcb03e24ce420081bc15c",
+      "bytes": 9719,
+      "pages": [
+        "pages/evening.html"
+      ]
+    },
+    {
+      "url": "/pages/morning.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "c70c3bd16820ae0f80afcdd275d3f9fc54068b38ec2b1c4f342c0a392f059d57",
+      "bytes": 9711,
+      "pages": [
+        "pages/morning.html"
+      ]
+    },
+    {
+      "url": "/pages/names.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "d9be23c7917349f724c3cda6c171d82b357a896f9659a237646c57221d604081",
+      "bytes": 13025,
+      "pages": [
+        "pages/names.html"
+      ]
+    },
+    {
+      "url": "/pages/nawawi.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "97bb2f1f374ad6f6587117824a937279087e53eb6ad9dee9e9dc26c964f1fb63",
+      "bytes": 13462,
+      "pages": [
+        "pages/nawawi.html"
+      ]
+    },
+    {
+      "url": "/pages/prayer-adhkar.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "5d3460d187685ad058f3dee1a69f2761e4bea2bdee6806c1a72bcf8807566af8",
+      "bytes": 9663,
+      "pages": [
+        "pages/prayer-adhkar.html"
+      ]
+    },
+    {
+      "url": "/pages/prayer.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "14b5b378b7a8cda1df110d7daf5c6ea6d92f2d03653b5c4d882bdfa1b4c2a660",
+      "bytes": 18718,
+      "pages": [
+        "pages/prayer.html"
+      ]
+    },
+    {
+      "url": "/pages/quran.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "bc5517cec89dbae5478fdea2d138ccfab0b75f7752d1a32e983a8ea050af0830",
+      "bytes": 14628,
+      "pages": [
+        "pages/quran.html"
+      ]
+    },
+    {
+      "url": "/pages/references.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "b88367abe9e1dc08bc7707f9083c4f626126d4b508685e6e995d9cb62ba6a77e",
+      "bytes": 28317,
+      "pages": [
+        "pages/references.html"
+      ]
+    },
+    {
+      "url": "/pages/router.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "8561639d0ead328b2a01aef776a65bc924530c276a027bdf52c61c01f9ffe5b1",
+      "bytes": 11384,
+      "pages": [
+        "pages/router.html"
+      ]
+    },
+    {
+      "url": "/pages/short-adhkar.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "5e409e463ee725f8dcfba5d5efb2962a9f11c1b273730dc434fc5f49b5c4d4cb",
+      "bytes": 10024,
+      "pages": [
+        "pages/short-adhkar.html"
+      ]
+    },
+    {
+      "url": "/pages/sleep.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "3233442521a6f47bf97785568dd958afea41e63bc643bf4fa89f73f301e5a0cf",
+      "bytes": 9344,
+      "pages": [
+        "pages/sleep.html"
+      ]
+    },
+    {
+      "url": "/pages/sunnah.html",
+      "type": "document",
+      "tier": "core",
+      "required": true,
+      "role": "page",
+      "sha256": "c18a0489b92ed3a281b292278d0446513eade4791ff8df6c3c115bcc00bccc0c",
+      "bytes": 12467,
+      "pages": [
+        "pages/sunnah.html"
+      ]
+    }
+  ],
+  "content": {
+    "url": "/data/quran-uthmani.txt",
+    "checksumUrl": "/data/quran-uthmani.sha256",
+    "metadataUrl": "/data/quran-metadata.xml",
+    "downloadRequests": 1,
+    "surahs": 114,
+    "verses": 6236
+  }
+}

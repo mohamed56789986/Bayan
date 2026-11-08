@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>البيان | مواقيت الصلاة والتقويم والقبلة</title>
+  <meta name="description" content="مواقيت الصلاة، التقويم الهجري، واتجاه القبلة ضمن منصة البيان الإسلامية، صدقة جارية لروح الشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور.">
+  <meta property="og:title" content="البيان | مواقيت الصلاة والتقويم والقبلة">
+  <meta property="og:description" content="مواقيت الصلاة الدقيقة حسب موقعك مع التقويم الهجري واتجاه القبلة.">
+  <meta property="og:type" content="website">
+
+  <meta name="theme-color" content="#FCFAF5">
+  <script src="../js/theme-init.js"></script>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- Progressive Web App -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="البيان">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../assets/icons/icon-192-v2.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/icons/icon-192-v2.png">
+</head>
+<body>
+
+  <!-- ========================================================================
+       Header
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="../index.html" class="logo-link" aria-label="الصفحة الرئيسية لمنصة البيان">
+        <div class="logo-badge" aria-hidden="true">
+          <img src="../assets/icons/header-logo.webp" alt="البيان">
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">البيان</span>
+          <span class="logo-subtitle">أذكارك، حصنك، وطمأنينة قلبك</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="القائمة الرئيسية">
+        <a href="../index.html" class="nav-link">الرئيسية</a>
+
+        <!-- قائمة منسدلة: الأذكار -->
+        <div class="nav-dropdown">
+          <a href="azkar.html" class="nav-link nav-dropdown-trigger" aria-haspopup="true">
+            <span>الأذكار</span>
+            <svg class="dropdown-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="nav-dropdown-menu" role="menu" aria-label="قائمة الأذكار">
+            <span class="nav-dropdown-title">الأكثر استخداماً</span>
+            <a href="azkar.html" class="nav-dropdown-item" role="menuitem">
+              <span>جميع الأذكار</span>
+              <span></span>
+            </a>
+            <a href="morning.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار الصباح</span>
+              <span>🌅</span>
+            </a>
+            <a href="evening.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار المساء</span>
+              <span>🌙</span>
+            </a>
+            <a href="sleep.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار النوم</span>
+              <span>🛌</span>
+            </a>
+            <a href="prayer-adhkar.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار ما بعد الصلاة</span>
+              <span>🕌</span>
+            </a>
+            <a href="short-adhkar.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار قصيرة</span>
+              <span>📿</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="quran.html" class="nav-link">القرآن</a>
+
+        <div class="nav-link">
+          <a href="duas.html" class="nav-link" aria-haspopup="true">
+            <span>الأدعية</span></a>
+        </div>
+
+        <a href="router.html" class="nav-link" aria-current="page">جميع الخدمات</a>
+        <a href="about.html" class="nav-link">عن البيان</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle-btn" aria-label="تبديل المظهر" title="تبديل المظهر" type="button">🌙</button>
+        <button class="mobile-menu-btn" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobile-nav-drawer" type="button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="قائمة الهاتف">
+    <a href="../index.html" class="mobile-nav-link">الرئيسية</a>
+
+    <div class="mobile-nav-group">
+      <button type="button" class="mobile-nav-link mobile-dropdown-trigger" aria-expanded="false">
+        <span>الأذكار</span>
+        <svg class="dropdown-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+      <div class="mobile-dropdown-menu">
+        <span class="mobile-dropdown-title"> الأكثر استخداماً</span>
+        <a href="azkar.html" class="mobile-dropdown-item">
+          <span>جميع الأذكار</span>
+          <span></span>
+        </a>
+        <a href="morning.html" class="mobile-dropdown-item">
+          <span>أذكار الصباح</span>
+          <span>🌅</span>
+        </a>
+        <a href="evening.html" class="mobile-dropdown-item">
+          <span>أذكار المساء</span>
+          <span>🌙</span>
+        </a>
+        <a href="sleep.html" class="mobile-dropdown-item">
+          <span>أذكار النوم</span>
+          <span>🛌</span>
+        </a>
+        <a href="prayer-adhkar.html" class="mobile-dropdown-item">
+          <span>أذكار ما بعد الصلاة</span>
+          <span>🕌</span>
+        </a>
+        <a href="short-adhkar.html" class="mobile-dropdown-item">
+          <span>أذكار قصيرة</span>
+          <span>📿</span>
+        </a>
+      </div>
+    </div>
+
+    <a href="quran.html" class="mobile-nav-link">القرآن الكريم</a>
+    <a href="duas.html" class="mobile-nav-link">الأدعية</a>
+    <a href="router.html" class="mobile-nav-link" aria-current="page">جميع الخدمات</a>
+    <a href="about.html" class="mobile-nav-link">عن البيان</a>
+  </nav>
+
+  <!-- ========================================================================
+       Main Content
+       ======================================================================== -->
+  <main class="main-content">
+    <div class="container prayer-times-container">
+
+      <!-- Hero Section -->
+      <section class="short-adhkar-hero" aria-labelledby="prayer-page-title">
+        <h1 id="prayer-page-title">مواقيت الصلاة والتقويم</h1>
+        <p>«إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا» — تعرف على مواقيت الصلاة، التقويم الهجري، واتجاه القبلة.</p>
+      </section>
+
+      <section class="dhikr-card prayer-location-card splash-step" id="location-banner" aria-label="تحديد الموقع الجغرافي">
+        <div class="card-icon-circle prayer-location-icon">
+          <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+        </div>
+        <h2 class="action-card-title">تحديد الموقع الجغرافي</h2>
+        <p class="action-card-desc">لمعرفة مواقيت الصلاة واتجاه القبلة بدقة حسب مدينتك، نحتاج لإذن تحديد موقعك الجغرافي. المواقيت تُحسب في جهازك نفسه، فلا إنترنت يلزم بعد تحديد الموقع.</p>
+        <button type="button" class="primary-btn" id="init-location-btn">
+          📍 تحديد موقعي الآن
+        </button>
+        <p class="prayer-locating-text" id="locating-text" hidden>جارٍ تحديد موقعك…</p>
+        <div id="location-error" class="prayer-error-msg splash-step" hidden></div>
+
+        <div class="prayer-city-fallback">
+          <label class="prayer-city-label" for="banner-city-select">أو اختر مدينتك (بدون إذن الموقع)</label>
+          <select class="prayer-city-select" id="banner-city-select"></select>
+        </div>
+      </section>
+
+      <div id="prayer-dashboard" class="splash-step" hidden>
+
+        <!-- بطاقة الصلاة القادمة والعداد التنازلي -->
+        <section class="dhikr-card prayer-next-card" id="next-prayer-card" aria-label="الصلاة القادمة">
+          <button type="button" class="prayer-settings-toggle" id="settings-toggle-btn" title="ضبط المواقيت لمطابقة المسجد" aria-label="ضبط المواقيت لمطابقة المسجد">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+            </svg>
+          </button>
+
+          <div class="dhikr-virtue-pill">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span id="city-text">جاري التحديد...</span>
+          </div>
+
+          <p class="prayer-location-status" id="location-status" role="status" aria-live="polite"></p>
+
+          <p class="prayer-next-label">الصلاة القادمة هي</p>
+          <h2 class="prayer-next-name" id="next-prayer-name">--</h2>
+          <div class="prayer-countdown-digits" id="countdown-timer">00:00:00</div>
+
+          <!-- لوحة ضبط الدقائق -->
+          <div class="prayer-offset-panel splash-step" id="offset-panel" hidden>
+            <p class="prayer-offset-label">تعديل الصلوات الخمس لمطابقة مسجدك (بالدقائق) — الشروق لا يتغيّر</p>
+            <div class="prayer-offset-controls">
+              <button type="button" class="prayer-offset-btn" id="offset-plus-btn" aria-label="زيادة دقيقة">+</button>
+              <span class="prayer-offset-val" id="offset-display">0</span>
+              <button type="button" class="prayer-offset-btn" id="offset-minus-btn" aria-label="إنقاص دقيقة">-</button>
+            </div>
+
+            <div class="prayer-panel-divider" aria-hidden="true"></div>
+
+            <label class="prayer-city-label" for="city-select">المدينة</label>
+            <select class="prayer-city-select" id="city-select"></select>
+
+            <div class="prayer-panel-divider" aria-hidden="true"></div>
+
+            <label class="prayer-city-label" for="method-select">منهج الحساب</label>
+            <select class="prayer-city-select" id="method-select"></select>
+
+            <label class="prayer-city-label" for="asr-select">مدرسة حساب العصر</label>
+            <select class="prayer-city-select" id="asr-select">
+              <option value="">حسب المنهج المختار</option>
+              <option value="standard">الجمهور: العصر مثل الظل</option>
+              <option value="hanafi">الحنفية: العصر مثلا الظل</option>
+            </select>
+
+            <p class="prayer-prefs-note">اختيارك اليدوي يسبق تحديد الموقع ولا تلمسه أيّة تلقائية.</p>
+
+            <div class="prayer-panel-actions">
+              <button type="button" class="control-btn" id="refresh-location-btn">📍 تحديث موقعي الآن</button>
+              <button type="button" class="control-btn" id="use-device-location-btn" hidden>استخدم موقع جهازي</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- شبكة مواقيت الصلوات الـ 6 -->
+        <section class="prayer-timings-grid" id="timings-grid" aria-label="جدول مواقيت الصلاة"></section>
+
+        <!-- التقويم الهجري والمناسبات الإسلامية -->
+        <section class="stats-grid" id="hijri-widget" aria-label="التقويم الهجري والمناسبات">
+          <div class="dua-card prayer-hijri-card">
+            <div class="card-icon-circle">🌙</div>
+            <div class="prayer-hijri-day" id="hijri-day">--</div>
+            <div class="prayer-hijri-month" id="hijri-month-year">--</div>
+          </div>
+
+          <div class="dua-card prayer-events-card">
+            <h3 class="prayer-events-header">
+              <span>✨</span>
+              <span>المناسبات الإسلامية القادمة</span>
+            </h3>
+            <div class="prayer-events-list" id="events-list"></div>
+          </div>
+        </section>
+
+        <!-- قسم بوصلة القبلة -->
+        <section class="dhikr-card qibla-card" id="qibla-section" aria-labelledby="qibla-heading">
+          <span class="section-badge">🧭 بوصلة القبلة</span>
+          <h2 class="about-card-title" id="qibla-heading">اتجاه القبلة المشرفة</h2>
+
+          <div class="compass-box">
+            <div class="compass-directions">
+              <span class="compass-dir compass-dir-n">N</span>
+              <span class="compass-dir compass-dir-e">E</span>
+              <span class="compass-dir compass-dir-s">S</span>
+              <span class="compass-dir compass-dir-w">W</span>
+            </div>
+            <div class="compass-needle" id="compass-needle">
+              <div class="compass-arrow">
+                <div class="kaaba-marker"></div>
+              </div>
+            </div>
+          </div>
+
+          <p class="qibla-hint">
+            ضع الهاتف على سطح مستوٍ وقم بتدويره بهدوء.<br>
+            <span id="compass-status">تهيئة البوصلة…</span>
+          </p>
+        </section>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-logo">البيان</div>
+      <div class="footer-slogan">أذكارك، حصنك، وطمأنينة قلبك</div>
+      <p class="footer-charity-notice">
+        صدقة جارية وإهداء لروح الشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور، نسأل الله أن يتقبلهما في عليين.
+      </p>
+
+      <div class="footer-links">
+        <a href="../index.html" class="footer-link">الرئيسية</a>
+        <a href="morning.html" class="footer-link">أذكار الصباح</a>
+        <a href="evening.html" class="footer-link">أذكار المساء</a>
+        <a href="sleep.html" class="footer-link">أذكار النوم</a>
+        <a href="short-adhkar.html" class="footer-link">أذكار قصيرة</a>
+        <a href="prayer-adhkar.html" class="footer-link">بعد الصلاة</a>
+        <a href="quran.html" class="footer-link">القرآن</a>
+        <a href="duas.html" class="footer-link">الأدعية</a>
+        <a href="about.html" class="footer-link">عن البيان</a>
+        <a href="../index.html#memorial-section" class="footer-link open-dedication-btn">الإهداء</a>
+      </div>
+
+      <div class="footer-copy">
+        منصة البيان © 2026 — مصممة للذكر والطمأنينة ولوجه الله تعالى
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts الخاصة بالمنصة -->
+  <script src="../js/storage.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/pwa-install.js"></script>
+
+  <script src="../js/prayer-calc.js" defer></script>
+  <script src="../data/prayer-regions.js" defer></script>
+  <script src="../data/prayer-cities.js" defer></script>
+  <script src="../js/prayer-times.js" defer></script>
+</body>
+</html>

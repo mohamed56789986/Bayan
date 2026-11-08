@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>القرآن الكريم | البيان</title>
+  <meta name="description" content="المصحف كاملًا بالنص العثماني من Tanzil، متاح محليًا داخل تطبيق البيان للعمل دون اتصال بعد التثبيت.">
+  <meta property="og:title" content="القرآن الكريم | منصة البيان">
+  <meta property="og:description" content="المصحف كاملًا بالنص العثماني، يعمل دون اتصال بعد التثبيت.">
+  <meta name="theme-color" content="#FCFAF5">
+  <script src="../js/theme-init.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="البيان">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../assets/icons/icon-192-v2.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/icons/icon-192-v2.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="../index.html" class="logo-link" aria-label="الصفحة الرئيسية لمنصة البيان">
+        <div class="logo-badge" aria-hidden="true">
+          <img src="../assets/icons/header-logo.webp" alt="البيان">
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">البيان</span>
+          <span class="logo-subtitle">أذكارك، حصنك، وطمأنينة قلبك</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="القائمة الرئيسية">
+        <a href="../index.html" class="nav-link">الرئيسية</a>
+
+        <!-- قائمة منسدلة: الأذكار -->
+        <div class="nav-dropdown">
+          <a href="azkar.html" class="nav-link nav-dropdown-trigger" aria-haspopup="true">
+            <span>الأذكار</span>
+            <svg class="dropdown-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="nav-dropdown-menu" role="menu" aria-label="قائمة الأذكار">
+            <span class="nav-dropdown-title">الأكثر استخداماً</span>
+            <a href="azkar.html" class="nav-dropdown-item" role="menuitem">
+              <span>جميع الأذكار</span>
+              <span></span>
+            </a>
+            <a href="morning.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار الصباح</span>
+              <span>🌅</span>
+            </a>
+            <a href="evening.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار المساء</span>
+              <span>🌙</span>
+            </a>
+            <a href="sleep.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار النوم</span>
+              <span>🛌</span>
+            </a>
+            <a href="prayer-adhkar.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار ما بعد الصلاة</span>
+              <span>🕌</span>
+            </a>
+            <a href="short-adhkar.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار قصيرة</span>
+              <span>📿</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="quran.html" class="nav-link active">القرآن</a>
+
+        <div class="nav-link">
+          <a href="duas.html" class="nav-link" aria-haspopup="true">
+            <span>الأدعية</span></a>
+        </div>
+
+        <a href="router.html" class="nav-link" aria-current="page">جميع الخدمات</a>
+        <a href="about.html" class="nav-link">عن البيان</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle-btn" aria-label="تبديل المظهر" title="تبديل المظهر" type="button">🌙</button>
+        <button class="mobile-menu-btn" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobile-nav-drawer" type="button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="قائمة الهاتف">
+    <a href="../index.html" class="mobile-nav-link">الرئيسية</a>
+
+    <div class="mobile-nav-group">
+      <button type="button" class="mobile-nav-link mobile-dropdown-trigger" aria-expanded="false">
+        <span>الأذكار</span>
+        <svg class="dropdown-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+      <div class="mobile-dropdown-menu">
+        <span class="mobile-dropdown-title"> الأكثر استخداماً</span>
+        <a href="azkar.html" class="mobile-dropdown-item">
+          <span>جميع الأذكار</span>
+          <span></span>
+        </a>
+        <a href="morning.html" class="mobile-dropdown-item">
+          <span>أذكار الصباح</span>
+          <span>🌅</span>
+        </a>
+        <a href="evening.html" class="mobile-dropdown-item">
+          <span>أذكار المساء</span>
+          <span>🌙</span>
+        </a>
+        <a href="sleep.html" class="mobile-dropdown-item">
+          <span>أذكار النوم</span>
+          <span>🛌</span>
+        </a>
+        <a href="prayer-adhkar.html" class="mobile-dropdown-item">
+          <span>أذكار ما بعد الصلاة</span>
+          <span>🕌</span>
+        </a>
+        <a href="short-adhkar.html" class="mobile-dropdown-item">
+          <span>أذكار قصيرة</span>
+          <span>📿</span>
+        </a>
+      </div>
+    </div>
+
+    <a href="quran.html" class="mobile-nav-link active">القرآن الكريم</a>
+    <a href="duas.html" class="mobile-nav-link">الأدعية</a>
+    <a href="router.html" class="mobile-nav-link" aria-current="page">جميع الخدمات</a>
+    <a href="about.html" class="mobile-nav-link">عن البيان</a>
+  </nav>
+
+
+  <main class="main-content">
+    <div class="container quran-container">
+      <section class="quran-hero" aria-labelledby="quran-title">
+        <span class="hero-pill">المصحف كاملًا — دون اتصال</span>
+        <h1 id="quran-title">القرآن الكريم</h1>
+        <p>مصحفك المحلي للقراءة الهادئة والمتابعة من آخر موضع، حتى دون اتصال.</p>
+      </section>
+
+      <section class="quran-bookmark-card" aria-label="متابعة القراءة">
+        <div>
+          <span class="quran-bookmark-label">🔖 متابعة القراءة</span>
+          <p id="quran-bookmark-message">ضع علامة عند الآية التي توقفت عندها، لتعود إليها عند فتح المصحف.</p>
+        </div>
+        <button id="quran-resume-button" class="quran-resume-button" type="button" hidden>متابعة القراءة</button>
+      </section>
+
+      <section class="quran-controls" aria-label="اختيار السورة">
+        <label class="quran-select-label" for="quran-sura-combo">اختيار السورة</label>
+        <div class="quran-combo" id="quran-sura-combo-root">
+          <input id="quran-sura-combo" class="quran-combo-input" type="text" role="combobox"
+                 aria-haspopup="listbox" aria-expanded="false" aria-controls="quran-sura-listbox"
+                 aria-autocomplete="list" placeholder="ابحث باسم السورة أو اختر السورة" autocomplete="off">
+          <button id="quran-combo-toggle" class="quran-combo-toggle" type="button" tabindex="-1"
+                  aria-controls="quran-sura-listbox" aria-expanded="false" aria-label="عرض قائمة السور كاملة">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div id="quran-combo-popup" class="quran-combo-popup" hidden>
+            <ul id="quran-sura-listbox" class="quran-combo-list" role="listbox" aria-label="قائمة السور"></ul>
+            <p id="quran-combo-empty" class="quran-combo-empty" role="status" hidden>لا توجد سورة بهذا الاسم</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="quran-daily-section" aria-labelledby="daily-surahs-title">
+        <div class="quran-section-heading">
+          <h2 id="daily-surahs-title">سور مختارة للورد اليومي</h2>
+          <span>اختصار للوصول السريع</span>
+        </div>
+        <div id="quran-daily-shortcuts" class="quran-daily-shortcuts"></div>
+      </section>
+
+      <section id="quran-reader" class="quran-mushaf" aria-label="صفحة المصحف">
+        <article class="quran-reading-card quran-mushaf-page">
+          <header class="quran-reading-header">
+            <p class="quran-sura-index" id="quran-page-folio">بانتظار المصحف</p>
+            <h2 id="quran-page-title">جارٍ تحميل المصحف…</h2>
+            <p id="quran-page-meta">يُقرأ النص من الملف المحلي كما هو، بصفحات مصحف المدينة الستّمئة والأربع.</p>
+          </header>
+          <div class="quran-verses quran-mushaf-body" id="quran-page-body" aria-live="polite"></div>
+          <p class="quran-reader-source">النص العثماني كما ورد في ملف Tanzil المحلي، دون توليد أو تعديل.</p>
+        </article>
+ 
+        <nav class="quran-page-nav" aria-label="التنقل بين صفحات المصحف">
+          <div class="quran-page-bar">
+            <button id="quran-prev-page" class="quran-page-nav-btn" type="button">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="9 6 15 12 9 18"></polyline>
+              </svg>
+              <span>السابق</span>
+            </button>
+            <p class="quran-page-counter" id="quran-page-counter">— / ٦٠٤</p>
+            <button id="quran-next-page" class="quran-page-nav-btn" type="button">
+              <span>التالي</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="15 6 9 12 15 18"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="quran-page-jump">
+            <label class="quran-page-jump-label" for="quran-page-input">انتقل إلى صفحة</label>
+            <input id="quran-page-input" class="quran-page-input" type="number" min="1" max="604" step="1"
+                   inputmode="numeric" autocomplete="off" placeholder="١ – ٦٠٤">
+            <button id="quran-page-go" class="quran-page-jump-btn" type="button">ذهاب</button>
+          </div>
+ 
+          <p class="quran-page-hint">اسحب إصبعك أفقيًا على الصفحة أو استخدم سهمي لوحة المفاتيح لتقليب الصفحات، وضغط 🔖 يحفظ موضع قراءتك.</p>
+        </nav>
+      </section>
+ 
+      <p class="quran-license-inline">أرقام الصفحات وحدودها من خريطة مصحف المدينة (٦٠٤ صفحة) المضمّنة في <a href="https://tanzil.net/" target="_blank" rel="noopener noreferrer">بيانات Tanzil</a> المحلية، ولا تُجرى على النص أي معالجة أو تعديل.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-logo">البيان</div>
+      <div class="footer-slogan">أذكارك، حصنك، وطمأنينة قلبك</div>
+      <p class="footer-charity-notice">
+        صدقة جارية وإهداء لروح الشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور، نسأل الله أن يتقبلهما في عليين.
+      </p>
+
+      <div class="footer-links">
+        <a href="../index.html" class="footer-link">الرئيسية</a>
+        <a href="morning.html" class="footer-link">أذكار الصباح</a>
+        <a href="evening.html" class="footer-link">أذكار المساء</a>
+        <a href="sleep.html" class="footer-link">أذكار النوم</a>
+        <a href="short-adhkar.html" class="footer-link">أذكار قصيرة</a>
+        <a href="prayer-adhkar.html" class="footer-link">بعد الصلاة</a>
+        <a href="quran.html" class="footer-link">القرآن</a>
+        <a href="duas.html" class="footer-link">الأدعية</a>
+        <a href="about.html" class="footer-link">عن البيان</a>
+        <a href="../index.html#memorial-section" class="footer-link open-dedication-btn">الإهداء</a>
+      </div>
+
+      <div class="footer-copy">
+        منصة البيان © 2026 — مصممة للذكر والطمأنينة ولوجه الله تعالى
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/storage.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/quran.js"></script>
+  <script src="../js/pwa-install.js"></script>
+</body>
+</html>

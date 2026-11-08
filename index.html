@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>البيان | أذكار الصباح والمساء والأدعية</title>
+  <meta name="description" content="البيان منصة إسلامية للأذكار والأدعية اليومية، صُممت لتكون رفيقًا هادئًا في يومك، صدقة جارية لروح الشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور.">
+  <meta property="og:title" content="البيان | أذكارك، حصنك، وطمأنينة قلبك">
+  <meta property="og:description" content="منصة أذكار وأدعية إسلامية هادئة وتفاعلية.">
+  <meta property="og:type" content="website">
+
+  <meta name="theme-color" content="#FCFAF5">
+  <script src="js/theme-init.js"></script>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Progressive Web App -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="البيان">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon-192-v2.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192-v2.png">
+</head>
+<body>
+
+  <!-- ========================================================================
+       شاشة الدخول الأولى (Entrance Splash Screen)
+       ======================================================================== -->
+  <div id="splash-screen" class="splash-overlay" role="dialog" aria-modal="true" aria-labelledby="splash-title" aria-describedby="splash-tagline splash-intro-dua">
+    <div class="splash-modal splash-intro-layout">
+      <section class="splash-step splash-intro-step" data-splash-step="intro" aria-labelledby="splash-title">
+        <h1 id="splash-title" class="splash-header-title">البيان</h1>
+        <p id="splash-tagline" class="splash-tagline">أذكارك، حصنك، وطمأنينة قلبك</p>
+
+        <div class="splash-charity-badge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          صدقة جارية وإهداء مبارك
+        </div>
+
+        <div class="splash-intro-dua-box">
+          <p id="splash-intro-dua" class="splash-intro-dua-text">اللَّهُمَّ إنَّ هَذَا العَمَلَ الخَالِصَ لِوَجْهِكَ الكَرِيمِ صَدَقَةٌ جَارِيَةٌ عَنْ روحَيِ الشَّهِيدَيْنِ البَارَّيْنِ مُؤْمِن وَمُعَاذ؛ اللَّهُمَّ تَقَبَّلْهُ مِنْهُمَا، وَاجْعَلْ فِي كُلِّ نَفْعٍ يَخْرُجُ مِنْهُ نُورًا يُضِيءُ لَهُمَا فِي قَبْرَيْهِمَا، وَمِيزَانًا يُثْقِلُ حَسَنَاتِهِمَا. اللَّهُمَّ أَنْزِلْهُمَا مَنَازِلَ الشُّهَدَاءِ وَالصَّادِقِينَ، وَارْفَعْ دَرَجَتَهُمَا فِي عِلِّيِّينَ، وَاجْمَعْنَا بِهِمَا فِي جَنَّاتِ النَّعِيمِ عَلَى سُرُرٍ مُتَقَابِلِينَ مِنْ غَيْرِ سَابِقِ عَذَابٍ وَلا حِسَابٍ.</p>
+        </div>
+
+        <button id="splash-next-btn" class="splash-enter-btn splash-next-btn" type="button">
+          <span>متابعة الإهداء</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        </button>
+      </section>
+
+      <section class="splash-step splash-memorial-step" data-splash-step="memorial" aria-labelledby="splash-memorial-title" hidden>
+        <div class="splash-memorial-heading">
+          <div>
+            <span class="section-badge">إهداء مبارك</span>
+            <h2 id="splash-memorial-title">في رحاب جنات الخلد</h2>
+          </div>
+          <button id="splash-back-btn" class="splash-back-btn" type="button">العودة</button>
+        </div>
+
+      <div class="martyrs-container" role="group" aria-label="إهداء لروح الشهيدين">
+        <article class="martyr-card">
+          <div class="martyr-photo-wrapper">
+            <img src="assets/images/momen.webp" alt="الشهيد المهندس مؤمن أكرم دبور" class="martyr-photo" loading="eager">
+          </div>
+          <h2 class="martyr-title">الشهيد المهندس مؤمن أكرم دبور</h2>
+          <div class="martyr-role">رحمه الله وتقبله في الشهداء</div>
+          <div class="martyr-dates">
+            <span>تاريخ الميلاد: 09/09/2004</span>
+            <span>تاريخ الاستشهاد: 28/10/2024</span>
+          </div>
+        </article>
+
+        <article class="martyr-card">
+          <div class="martyr-photo-wrapper">
+            <img src="assets/images/moadh.webp" alt="الشهيد الشاب معاذ أكرم دبور" class="martyr-photo" loading="eager">
+          </div>
+          <h2 class="martyr-title">الشهيد الشاب معاذ أكرم دبور</h2>
+          <div class="martyr-role">رحمه الله وتقبله في الشهداء</div>
+          <div class="martyr-dates">
+            <span>تاريخ الميلاد: 19/05/2008</span>
+            <span>تاريخ الاستشهاد: 28/10/2024</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="splash-dua-box">
+        <p class="splash-dua-text">
+          نسأل الله أن يتقبلهما من الشهداء، وأن يرحمهما رحمةً واسعة، وأن يجعل قبريهما روضةً من رياض الجنة، وأن يحشرهما في عليين مع النبيين والصديقين والشهداء والصالحين، وحسن أولئك رفيقًا.
+        </p>
+      </div>
+
+      <button id="splash-enter-btn" class="splash-enter-btn" type="button">
+        <span>دخول إلى البيان</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      </button>
+      </section>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       Header
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link" aria-label="الصفحة الرئيسية لمنصة البيان">
+        <div class="logo-badge" aria-hidden="true">
+          <img src="assets/icons/header-logo.webp" alt="">
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">البيان</span>
+          <span class="logo-subtitle">أذكارك، حصنك، وطمأنينة قلبك</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="القائمة الرئيسية">
+        <a href="index.html" class="nav-link active">الرئيسية</a>
+
+        <!-- قائمة منسدلة: الأذكار -->
+        <div class="nav-dropdown">
+          <a href="pages/azkar.html" class="nav-link nav-dropdown-trigger" aria-haspopup="true">
+            <span>الأذكار</span>
+            <svg class="dropdown-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+          <div class="nav-dropdown-menu" role="menu" aria-label="قائمة الأذكار">
+            <span class="nav-dropdown-title">الأكثر استخداماً</span>
+            <a href="pages/azkar.html" class="nav-dropdown-item" role="menuitem">
+              <span>جميع الأذكار</span>
+              <span></span>
+            </a>
+            <a href="pages/morning.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار الصباح</span>
+              <span>🌅</span>
+            </a>
+            <a href="pages/evening.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار المساء</span>
+              <span>🌙</span>
+            </a>
+            <a href="pages/sleep.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار النوم</span>
+              <span>🛌</span>
+            </a>
+            <a href="pages/prayer-adhkar.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار ما بعد الصلاة</span>
+              <span>🕌</span>
+            </a>
+            <a href="pages/short-adhkar.html" class="nav-dropdown-item" role="menuitem">
+              <span>أذكار قصيرة</span>
+              <span>📿</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="pages/quran.html" class="nav-link">القرآن</a>
+
+        <div class="nav-link">
+          <a href="pages/duas.html" class="nav-link" aria-haspopup="true">
+            <span>الأدعية</span></a>
+        </div>
+
+        <a href="pages/router.html" class="nav-link" aria-current="page">جميع الخدمات</a>
+        <a href="pages/about.html" class="nav-link">عن البيان</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle-btn" aria-label="تبديل المظهر" title="تبديل المظهر" type="button">🌙</button>
+        <button class="mobile-menu-btn" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobile-nav-drawer" type="button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="قائمة الهاتف">
+    <a href="index.html" class="mobile-nav-link active">الرئيسية</a>
+
+    <div class="mobile-nav-group">
+      <button type="button" class="mobile-nav-link mobile-dropdown-trigger" aria-expanded="false">
+        <span>الأذكار</span>
+        <svg class="dropdown-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+      <div class="mobile-dropdown-menu">
+        <span class="mobile-dropdown-title"> الأكثر استخداماً</span>
+        <a href="pages/azkar.html" class="mobile-dropdown-item">
+          <span>جميع الأذكار</span>
+          <span></span>
+        </a>
+        <a href="pages/morning.html" class="mobile-dropdown-item">
+          <span>أذكار الصباح</span>
+          <span>🌅</span>
+        </a>
+        <a href="pages/evening.html" class="mobile-dropdown-item">
+          <span>أذكار المساء</span>
+          <span>🌙</span>
+        </a>
+        <a href="pages/sleep.html" class="mobile-dropdown-item">
+          <span>أذكار النوم</span>
+          <span>🛌</span>
+        </a>
+        <a href="pages/prayer-adhkar.html" class="mobile-dropdown-item">
+          <span>أذكار ما بعد الصلاة</span>
+          <span>🕌</span>
+        </a>
+        <a href="pages/short-adhkar.html" class="mobile-dropdown-item">
+          <span>أذكار قصيرة</span>
+          <span>📿</span>
+        </a>
+      </div>
+    </div>
+
+    <a href="pages/quran.html" class="mobile-nav-link">القرآن الكريم</a>
+    <a href="pages/duas.html" class="mobile-nav-link">الأدعية</a>
+    <a href="pages/router.html" class="mobile-nav-link" aria-current="page">جميع الخدمات</a>
+    <a href="pages/about.html" class="mobile-nav-link">عن البيان</a>
+  </nav>
+
+  <!-- ========================================================================
+       Main Content
+       ======================================================================== -->
+  <main class="main-content">
+    <div class="container">
+      <section class="mobile-home-brand" aria-label="هوية منصة البيان">
+        <h1>البيان</h1>
+        <p>أذكارك، حصنك، وطمأنينة قلبك</p>
+        <div class="mobile-home-dedication">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          صدقة جارية وإهداء مبارك
+        </div>
+      </section>
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ
+        </div>
+        <h1 class="hero-title">البيان</h1>
+        <p class="hero-slogan">أذكارك، حصنك، وطمأنينة قلبك</p>
+        <p class="hero-description">
+          ابدأ يومك بذكر الله، واختمه بذكره، واجعل لسانك عامرًا بالدعاء والسكينة في كل وقت وحين.
+        </p>
+      </section>
+
+      <section class="fatiha-dedication" aria-labelledby="fatiha-title">
+        <div class="fatiha-dedication-header">
+          <span class="section-badge">إهداء ودعاء بالرحمة</span>
+          <span aria-hidden="true">🕊️</span>
+        </div>
+        <h2 id="fatiha-title">سورة الفاتحة لروح الشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور</h2>
+        <p class="fatiha-dedication-note">نقرأ الفاتحة وندعو بالرحمة والقبول للشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور.</p>
+        <p class="fatiha-text">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ
+الرَّحْمَٰنِ الرَّحِيمِ
+مَالِكِ يَوْمِ الدِّينِ
+إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ
+صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ</p>
+        <button type="button" class="tool-btn" id="share-fatiha-btn">مشاركة بطاقة الفاتحة</button>
+      </section>
+
+      <!-- Quick Actions (3 Cards) -->
+      <section class="quick-actions-section" aria-label="الأقسام الرئيسية">
+        <div class="quick-actions-grid">
+          <!-- أذكار الصباح -->
+          <div class="action-card action-card-morning">
+            <div>
+              <div class="card-icon-circle">🌅</div>
+              <h2 class="action-card-title">أذكار الصباح</h2>
+              <p class="action-card-desc">ابدأ صباحك بذكر الله وطمأنينة القلب، واحمِ يومك من كل سوء ومكروه.</p>
+            </div>
+            <a href="pages/morning.html" class="action-card-btn">
+              ابدأ أذكار الصباح
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </a>
+          </div>
+
+          <!-- أذكار المساء -->
+          <div class="action-card action-card-evening">
+            <div>
+              <div class="card-icon-circle">🌙</div>
+              <h2 class="action-card-title">أذكار المساء</h2>
+              <p class="action-card-desc">اختم يومك بذكر الله وسكينة النفس، وحصّن ليلتك بأدعية الهدي النبوي.</p>
+            </div>
+            <a href="pages/evening.html" class="action-card-btn">
+              ابدأ أذكار المساء
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </a>
+          </div>
+
+          <!-- الأدعية -->
+          <div class="action-card action-card-duas">
+            <div>
+              <div class="card-icon-circle">🤲</div>
+              <h2 class="action-card-title">الأدعية</h2>
+              <p class="action-card-desc">أدعية مأثورة من القرآن والسنة وأدعية مختارة لمختلف أحوال الحياة والرجاء.</p>
+            </div>
+            <a href="pages/duas.html" class="action-card-btn">
+              تصفح الأدعية
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </a>
+          </div>
+
+          <!-- أذكار النوم -->
+          <div class="action-card action-card-sleep">
+            <div>
+              <div class="card-icon-circle">🌙</div>
+              <h2 class="action-card-title">أذكار النوم</h2>
+              <p class="action-card-desc">اختم يومك بذكر الله وطمأنينة القلب، واقرأ أذكار النوم المأثورة في جلسة هادئة.</p>
+            </div>
+            <a href="pages/sleep.html" class="action-card-btn">
+              ابدأ أذكار النوم
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </a>
+          </div>
+
+          <!-- أذكار قصيرة -->
+          <div class="action-card action-card-short">
+            <div>
+              <div class="card-icon-circle">✨</div>
+              <h2 class="action-card-title">أذكار قصيرة</h2>
+              <p class="action-card-desc">أذكار مختارة للبيت والطريق والخلاء والسوق، تصل إليها بسهولة في أي وقت.</p>
+            </div>
+            <a href="pages/short-adhkar.html" class="action-card-btn">
+              تصفح الأذكار القصيرة
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </a>
+          </div>
+
+          <!-- أذكار ما بعد الصلاة -->
+          <div class="action-card action-card-prayer">
+            <div>
+              <div class="card-icon-circle">🕌</div>
+              <h2 class="action-card-title">أذكار ما بعد الصلاة</h2>
+              <p class="action-card-desc">أذكار مأثورة مرتبة بعد كل صلاة مفروضة، في بطاقات واضحة ومصادرها مبيّنة.</p>
+            </div>
+            <a href="pages/prayer-adhkar.html" class="action-card-btn">
+              افتح أذكار الصلاة
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </a>
+          </div>
+
+          <!-- القرآن الكريم -->
+          <div class="action-card action-card-quran">
+            <div>
+              <div class="card-icon-circle">📖</div>
+              <h2 class="action-card-title">القرآن الكريم</h2>
+              <p class="action-card-desc">المصحف كاملًا بالنص العثماني الموثّق، متاح محليًا ليعمل دون اتصال بعد التثبيت.</p>
+            </div>
+            <a href="pages/quran.html" class="action-card-btn">
+              افتح المصحف
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Continue Session Card (Dynamic) -->
+      <section id="continue-session-container" class="continue-session-wrapper" style="display: none;" aria-label="أكمل من حيث توقفت"></section>
+
+      <!-- Daily Streak & Reflection -->
+      <section class="stats-section" aria-label="إحصائيات واستمرارية">
+        <div class="stats-grid">
+          <!-- Streak Card -->
+          <div class="stat-card">
+            <div class="stat-icon">🔥</div>
+            <div class="stat-details">
+              <span class="stat-label">سلسلة الذكر اليومي</span>
+              <span class="stat-value" id="daily-streak-val">0 أيام متتالية</span>
+            </div>
+          </div>
+
+          <!-- Daily Reflection (rendered by home-enhancements.js) -->
+          <div id="daily-reflection-container" class="daily-reflection-slot"></div>
+        </div>
+      </section>
+
+      <!-- Featured Dua of the Day -->
+      <section class="featured-dua-section" aria-label="دعاء اليوم">
+        <div id="featured-dua-container"></div>
+      </section>
+
+      <!-- Memorial Section (صدقة جارية لمؤمن ومعاذ) -->
+      <section id="memorial-section" class="memorial-section" aria-label="صدقة جارية للشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور">
+        <div class="memorial-badge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          صدقة جارية
+        </div>
+        <h2 class="memorial-title">في رحاب جنات الخلد</h2>
+        <p class="memorial-subtitle">
+          هذا العمل صدقة جارية ونور يُهدى إلى روح الشهيدين الشابين من العائلة
+        </p>
+
+        <!-- Martyrs Cards Container -->
+        <div class="martyrs-container">
+          <div class="martyr-card">
+            <div class="martyr-photo-wrapper">
+              <img src="assets/images/momen.webp" alt="الشهيد المهندس مؤمن أكرم دبور" class="martyr-photo" loading="lazy">
+            </div>
+            <h3 class="martyr-title">الشهيد المهندس مؤمن أكرم دبور</h3>
+            <div class="martyr-role">تقبله الله في عليين</div>
+            <div class="martyr-dates">
+              <span>تاريخ الميلاد: 09/09/2004</span>
+              <span>تاريخ الاستشهاد: 28/10/2024</span>
+            </div>
+          </div>
+
+          <div class="martyr-card">
+            <div class="martyr-photo-wrapper">
+              <img src="assets/images/moadh.webp" alt="الشهيد الشاب معاذ أكرم دبور" class="martyr-photo" loading="lazy">
+            </div>
+            <h3 class="martyr-title">الشهيد الشاب معاذ أكرم دبور</h3>
+            <div class="martyr-role">تقبله الله في عليين</div>
+            <div class="martyr-dates">
+              <span>تاريخ الميلاد: 19/05/2008</span>
+              <span>تاريخ الاستشهاد: 28/10/2024</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- الدعاء العام للشهيدين -->
+        <div class="splash-dua-box" style="margin-top: 24px; margin-bottom: 24px;">
+          <p class="splash-dua-text">
+            نسأل الله أن يتقبلهما من الشهداء، وأن يرحمهما رحمةً واسعة، وأن يجعل قبريهما روضةً من رياض الجنة، وأن يحشرهما في عليين مع النبيين والصديقين والشهداء والصالحين، وحسن أولئك رفيقًا.
+          </p>
+        </div>
+
+        <!-- البطاقة الخاصة للدعاء لمؤمن ومعاذ -->
+        <div class="dedicated-prayer-card">
+          <h3 class="prayer-header-title">دعاء خاص للشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور</h3>
+          <p class="prayer-body-text">
+            "اللهم اجعل كل ذكر يُقرأ، وكل دعاء يُقال، وكل خير يُنشر من خلال هذه المنصة في ميزان حسناتهما."
+          </p>
+          <p class="prayer-secondary-text">
+            اللهم اجمع الشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور بمن يحبون في جناتك، وارزق أهلهم الصبر والرضا، واجعل هذا العمل نورًا وأجرًا لا ينقطع.
+          </p>
+        </div>
+      </section>
+
+      <!-- About Preview -->
+      <section style="margin: 36px 0; text-align: center;">
+        <div class="about-card">
+          <h2 class="about-card-title">عن منصة البيان</h2>
+          <p class="about-text">
+            البيان منصة إسلامية تهدف إلى تيسير أذكار الصباح والمساء والأدعية اليومية في تجربة بسيطة وهادئة تساعد المسلم على جعل الذكر والدعاء جزءًا من يومه.
+          </p>
+          <a href="pages/about.html" class="primary-btn" style="margin-top: 12px;">
+            اقرأ المزيد والإهداء الكامل
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-logo">البيان</div>
+      <div class="footer-slogan">أذكارك، حصنك، وطمأنينة قلبك</div>
+      <p class="footer-charity-notice">
+        صدقة جارية وإهداء لروح الشهيد المهندس مؤمن أكرم دبور والشهيد الشاب معاذ أكرم دبور، نسأل الله أن يتقبلهما في عليين.
+      </p>
+
+      <div class="footer-links">
+        <a href="index.html" class="footer-link">الرئيسية</a>
+        <a href="pages/morning.html" class="footer-link">أذكار الصباح</a>
+        <a href="pages/evening.html" class="footer-link">أذكار المساء</a>
+        <a href="pages/sleep.html" class="footer-link">أذكار النوم</a>
+        <a href="pages/short-adhkar.html" class="footer-link">أذكار قصيرة</a>
+        <a href="pages/prayer-adhkar.html" class="footer-link">بعد الصلاة</a>
+        <a href="pages/quran.html" class="footer-link">القرآن</a>
+        <a href="pages/duas.html" class="footer-link">الأدعية</a>
+        <a href="pages/about.html" class="footer-link">عن البيان</a>
+        <a href="#memorial-section" class="footer-link open-dedication-btn">الإهداء</a>
+      </div>
+
+      <div class="footer-copy">
+        منصة البيان © 2026 — مصممة للذكر والطمأنينة ولوجه الله تعالى
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data/daily-reflections.js"></script>
+  <script src="data/duas.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home-enhancements.js"></script>
+  <script src="js/pwa-install.js"></script>
+</body>
+</html>
